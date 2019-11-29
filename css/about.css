@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Muli&display=swap');
+:root {
+    font-family: 'Architects Daughter', cursive;
+} 
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 27px;
+    margin-top: 17px;
+}
+
+.container {
+    background-image: url(../img/background2.jpg);
+    width: 100%;
+    max-width: 980px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    max-width: 980px;
+    margin: auto;
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 750px) {
+    .pos-f-t {
+        display: none;
+    }
+}
+
+.logo h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+}
+
+.pos-f-t {
+    padding: 4px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+@media (min-width: 750px) {
+    .menu {
+        font-size: 1rem;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 0;
+        margin: 15px;
+    }
+}
+
+.containerText {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 980px;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBgr {
+    background-image: url(../img/textBgr.jpg);
+    width: 270px; 
+    height: 280px; 
+    border: 3px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.textBgr h3{
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.textBgrTwo {
+    background-image: url(../img/textBgr.jpg);
+    width: 270px; 
+    height: 240px; 
+    border: 3px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.textBgrTwo h3{
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.textBgrThree {
+    background-image: url(../img/textBgr.jpg);
+    width: 270px; 
+    height: 195px; 
+    border: 3px;
+    border-radius: 10px;
+}
+
+.textBgrThree img{
+    width: 270px; 
+    height: 190px; 
+    padding: 10px;
+}
+
+.containerFooter {
+    background-color: rgb(9, 143, 196);
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.textFotter h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}

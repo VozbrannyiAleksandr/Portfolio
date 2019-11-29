@@ -11,33 +11,43 @@ h1 {
 }
 
 .container {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background2.jpg);
     width: 100%;
     max-width: 980px;
-    height: 500px;
+    height: auto;
     margin: 0;
     padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
 .containerHeader {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pos-f-t {
+    padding: 4px;
 }
 
 .menu {
-    font-size: 1rem;
     display: none;
-    list-style: none;
-    justify-content: space-around;
-    padding: 0;
-    margin: 1vh;
 }
 
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: yellow;
+    color: white;
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -45,7 +55,8 @@ h1 {
 .containerMain {
     text-align: center;
     color: white;
-    margin-top: 210px;
+    margin-top: 250px;
+    margin-bottom: 310px;
 }
 
 .containerMain h2 {
@@ -53,7 +64,36 @@ h1 {
 }
 
 .containerFooter {
+    background-color: rgb(9, 143, 196);
     text-align: center;
     color: white;
-    margin-top: 90px;
+    margin-top: 5px;
+}
+
+.textFotter h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+
+@media (min-width: 750px) {
+    .pos-f-t {
+        display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .logo h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 750px) {
+    .menu {
+        font-size: 1rem;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 0;
+        margin: 15px;
+    }
 }
