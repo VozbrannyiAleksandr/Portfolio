@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Muli&display=swap');
+
 :root {
     font-family: 'Architects Daughter', cursive;
 } 
@@ -30,7 +31,7 @@ body {
     justify-content: space-between;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 775px) {
     .pos-f-t {
         display: none;
     }
@@ -59,15 +60,25 @@ body {
     padding: 5px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 775px) {
     .menu {
-        font-size: 1rem;
         display: flex;
         list-style: none;
-        justify-content: space-around;
         padding: 0;
         margin: 15px;
     }
+}
+
+.tel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .containerText {
@@ -89,7 +100,7 @@ body {
 .textBgr {
     background-image: url(../img/textBgr.jpg);
     width: 270px; 
-    height: 280px; 
+    height: 250px; 
     border: 3px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -104,7 +115,7 @@ body {
 .textBgrTwo {
     background-image: url(../img/textBgr.jpg);
     width: 270px; 
-    height: 240px; 
+    height: 320px; 
     border: 3px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -130,6 +141,14 @@ body {
     padding: 10px;
 }
 
+.containerTextDesktopAbout {
+    display: none;
+}
+
+.containerTextDesktop {
+    display: none;
+}
+
 .containerFooter {
     background-color: rgb(9, 143, 196);
     text-align: center;
@@ -140,4 +159,121 @@ body {
 .textFotter h3 {
     font-family: 'Indie Flower', cursive;
     font-size: 15px;
+}
+
+@media (min-width: 775px) {
+    .containerText {
+        display: none;
+    }
+}
+
+@media (min-width: 775px) {
+    .logo h1{
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 775px) {
+    .containerTextDesktopAbout {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 980px;
+        height: auto;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 775px) {
+    .desktop {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrDesktop {
+        background-image: url(../img/textBgr1.jpg);
+        width: 500px; 
+        height: 140px; 
+        border: 3px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrDesktop h3{
+        font-family: 'Muli', sans-serif;
+        font-size: 18px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrTwoDesktop {
+        background-image: url(../img/textBgr.jpg);
+        width: 310px; 
+        height: 240px; 
+        border: 3px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 775px) {
+    .containerTextDesktop {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 980px;
+        height: auto;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 775px) {
+    .desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrTwoDesktop h3{
+        font-family: 'Muli', sans-serif;
+        font-size: 18px;
+        padding: 2px;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrThreeDesktop {
+        background-image: url(../img/textBgr.jpg);
+        width: 320px; 
+        height: 225px; 
+        border: 3px;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrThreeDesktop img{
+        width: 310px; 
+        height: 220px; 
+        padding: 10px;
+    }
 }

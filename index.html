@@ -20,7 +20,7 @@
                         <div class="p-3 mb-2 bg-dark text-white p-4">
                             <h5 class="text-white h4">Menu</h5>                   
                             <a class="btn btn-outline-light" href="about.html">About</a>                                             
-                            <a class="btn btn-outline-light" href="feedback.html">Projects</a>                     
+                            <a class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#projects">Projects</a>                    
                             <a class="btn btn-outline-light" data-toggle="modal" data-target="#contactMe" href="contacts.html">Contact Me</a>
                         </div>
                     </div>
@@ -32,25 +32,39 @@
                 </div>
                 <ul class="menu">
                     <li>
-                        <a class="btn btn-outline-light" href="about.html">About</a>
+                        <a class="btn btn-outline-light btn-lg" href="about.html">About</a>
                     </li>
                     <li>
-                        <a class="btn btn-outline-light" href="feedback.html">Projects</a>
+                        <a class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="btn btn-outline-light" data-toggle="modal" data-target="#contactMe" href="contacts.html">Contact Me</a>
+                        <a class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#contactMe">Contact Me</a>
                     </li>
                 </ul>
-                <!-- modal to contacts -->
                 <div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="contactMe" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content bg-dark">
                             <div class="modal-header">
-                                <h5 class="modal-title text-white" id="title">My contacts</h5>
+                                <h5 class="modal-title text-white" id="titleContacts">My contacts</h5>
                             </div>
                             <div class="modal-body text-white">
-                                <h3>+380(68) 633 92 21</h3>
-                                <h3>+380(73) 170 99 78</h3>
+                                <div class="tel">
+                                    <h3>Tel: +380(68) 633 92 21</h3>
+                                    <h3>Tel: +380(73) 170 99 78</h3>
+                                    <h3>Email: saniok2525@gmail.com</h3>
+                                </div>
+                                <div class="icons">
+                                    <div>
+                                        <a href="https://www.facebook.com/profile.php?id=100009324693752" target="_blank">
+                                            <img src="img/facebookLogo.png" alt="FB" width="70" height="70">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.instagram.com/aleksandr_kenwood/?hl=ru" target="_blank">
+                                            <img src="img/instagramLogo.png" alt="Instagram Logo" width="70" height="70">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -58,10 +72,26 @@
                         </div>
                     </div>
                 </div> 
-                <!-- modal to contacts -->
             </div>
+            <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="projects" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-white" id="title">My projects</h5>
+                        </div>
+                        <div class="modal-body text-white">
+                            <div class="tel">
+                                <a href="https://vozbrannyialeksandr.github.io/DTL2/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="_blank">Drift Trike Lviv WEB-page</a>
+                                <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" target="_blank">Calculator</a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </header>
-
         <main>
             <div class="containerMain">
                 <h2>WEB-development: HTML5/CSS</h2>
@@ -69,7 +99,6 @@
                 <h2>DataBase: SQL</h2>
             </div>
         </main>
-
         <footer>
             <div class="containerFooter">
                 <div class="textFotter">
@@ -77,11 +106,9 @@
                 </div>
             </div>
         </footer>
-
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
     </div>
 </body>
 </html>

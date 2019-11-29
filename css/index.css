@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Muli&display=swap');
 
 :root {
     font-family: 'Architects Daughter', cursive;
@@ -20,6 +20,7 @@ h1 {
 }
 
 body {
+    font-family: 'Architects Daughter', cursive;
     max-width: 980px;
     margin: auto;
 }
@@ -52,7 +53,20 @@ body {
     padding: 5px;
 }
 
+.tel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .containerMain {
+    font-family: 'Muli', sans-serif;
     text-align: center;
     color: white;
     margin-top: 250px;
