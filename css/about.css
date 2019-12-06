@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
 }
 
-@media (min-width: 775px) {
+@media (min-width: 950px) {
     .pos-f-t {
         display: none;
     }
@@ -60,7 +60,7 @@ body {
     padding: 5px;
 }
 
-@media (min-width: 775px) {
+@media (min-width: 950px) {
     .menu {
         display: flex;
         list-style: none;
