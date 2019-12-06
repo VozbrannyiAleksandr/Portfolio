@@ -108,8 +108,15 @@ body {
 
 .textBgr h3{
     font-family: 'Muli', sans-serif;
-    font-size: 18px;
-    padding: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 0;
+}
+
+.textBgr h4{
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    padding: 5px;
 }
 
 .textBgrTwo {
@@ -123,8 +130,15 @@ body {
 
 .textBgrTwo h3{
     font-family: 'Muli', sans-serif;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 15px;
+}
+
+.textBgrTwo h2 {
+   font-family: 'Architects Daughter', cursive;
+        color: black;
+        font-size: 20px;
+        padding: 1px;
+        margin: 1px; 
 }
 
 .textBgrThree {
@@ -154,11 +168,6 @@ body {
     text-align: center;
     color: white;
     margin-top: 5px;
-}
-
-.textFotter h3 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 15px;
 }
 
 @media (min-width: 775px) {
@@ -200,11 +209,12 @@ body {
 @media (min-width: 775px) {
     .textBgrDesktop {
         background-image: url(../img/textBgr1.jpg);
-        width: 500px; 
+        width: 550px; 
         height: 140px; 
         border: 3px;
         border-radius: 10px;
-        margin-bottom: 15px;
+        margin-top: 40px;
+        margin-bottom: 120px;
     }
 }
 
@@ -217,13 +227,20 @@ body {
 }
 
 @media (min-width: 775px) {
+    .textBgrDesktop h2{
+        color: black;
+        padding: 0;
+    }
+}
+
+@media (min-width: 775px) {
     .textBgrTwoDesktop {
         background-image: url(../img/textBgr.jpg);
-        width: 310px; 
-        height: 240px; 
+        width: 410px; 
+        height: 300px; 
         border: 3px;
         border-radius: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 }
 
@@ -237,7 +254,6 @@ body {
         text-align: center;
         color: white;
         margin-top: 10px;
-        margin-left: 20px;
     }
 }
 
@@ -253,7 +269,17 @@ body {
 @media (min-width: 775px) {
     .textBgrTwoDesktop h3{
         font-family: 'Muli', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
+        padding: 2px;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 775px) {
+    .textBgrTwoDesktop h2{
+        font-family: 'Architects Daughter', cursive;
+        color: black;
+        font-size: 25px;
         padding: 2px;
         margin: 5px;
     }
@@ -262,18 +288,25 @@ body {
 @media (min-width: 775px) {
     .textBgrThreeDesktop {
         background-image: url(../img/textBgr.jpg);
-        width: 320px; 
-        height: 225px; 
+        width: 400px; 
+        height: 300px; 
         border: 3px;
         border-radius: 10px;
         margin-left: 50px;
+        margin-bottom: 30px;
     }
 }
 
 @media (min-width: 775px) {
     .textBgrThreeDesktop img{
-        width: 310px; 
-        height: 220px; 
+        width: 390px; 
+        height: 290px; 
         padding: 10px;
     }
+}
+
+.textFotter h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    margin-top: -5px;
 }
